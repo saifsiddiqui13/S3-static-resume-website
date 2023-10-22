@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #007BFF;
+        }
+        h3 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        /* Add CSS animation */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(0.9);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(0.9);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Saif Siddiqui</h1>
+        <p>Student</p>
+    </header>
+    <div class="container">
+        <!-- Add profile image with the S3 URL -->
+        <img src="https://mys3resumewebsite.s3.amazonaws.com/profile.png" alt="Profile Image" class="profile-image">
+        <!-- About Me Section -->
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Goal-driven fourth-year Engineering student with a focus on DevOps practices, cloud
+                technologies, and CI/CD pipelines to optimize software delivery and enhance scalability. I am
+                learning how to identify and fix issues and work together with a proper team to make sure
+                everything fits together smoothly and our projects are delivered on time.</p>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <h3>B.tech</h3>
+            <p>2020-24</p>
+            <p>Technocrats Institute Of Technology</p>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="section">
+            <h2>Experience</h2>
+            <h3>Software engineer intern</h3>
+            <p>4 Months</p>
+            <p>I did an internship at a company where I gained hands-on
+                experience with variousDevOps tools and working on tasks
+                such as infrastructure provisioning, setting up CI/CD pipelines,
+                monitoring data, and version control. This internship provided
+                me with valuable opportunities to learn and develop my skills
+                in the field of DevOps.</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Devops</li>
+                <li>AWS</li>
+                <li>Linux</li>
+                <li>Java</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section">
+            <h2>Contact</h2>
+            <p>Email: saifsid7389.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/saif-siddiqui-517397202/">linkedin.com/in/yourname</a></p>
+            <p>GitHub: <a href="https://github.com/saifsiddiqui13">github.com/yourusername</a></p>
+            <p>Phone: +91 7389147607</p>
+        </div>
+    </div>
+</body>
+</html>
